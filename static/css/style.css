@@ -1,0 +1,17 @@
+body {
+	padding: 50px;
+	margin: auto;
+}
+#content {
+	margin: auto;
+	width: 400px;
+	padding: 10px;
+	text-align: center;
+}
+#ninja {
+	display: none;
+}
+img {
+	height: 400px;
+}	
+

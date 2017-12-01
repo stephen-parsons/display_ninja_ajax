@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninjas!</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Select a TMNT color to display ninja!</h1>
+		<div id='ninja'>
+			<h2 id="ninja_name"><h2>
+			<img src="" alt="bad route">
+		</div>
+		<button id="red" name="red" value="raphael">red</button>
+		<button id="blue" name="blue" value="leonardo">blue</button>
+		<button id="orange" name="orange" value="michelangelo">orange</button>
+		<button id="purple" name="purple" value="donatello">purple</button><br>
+		<p>Or enter color here:</p>
+		<input id="choose" type="text" name="choose">
+		<button id="enter" name="enter">Enter</button>
+	</div>
+</body>
+</html>
